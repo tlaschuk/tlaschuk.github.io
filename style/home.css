@@ -1,0 +1,32 @@
+#row_video {
+  padding: 60px;
+}
+@media (min-width: 0) {
+  #row_video iframe,
+  #row_video div {
+    height: 480px;
+    width: 853px;
+  }
+}
+@media (min-width: 1440px) {
+  #row_video iframe,
+  #row_video div {
+    height: 720px;
+    width: 1280px;
+  }
+}
+#player {
+  display: block;
+  margin: 0 auto;
+  -webkit-transition: opacity 1.8s;
+  -moz-transition: opacity 1.8s;
+  -o-transition: opacity 1.8s;
+  -ms-transition: opacity 1.8s;
+  transition: opacity 1.8s;
+}
+#row_maple div {
+  background: url("../../images/home/maple.png") no-repeat center center/80%;
+}
+#row_dcs div {
+  background: url("../../images/home/dcs.png") no-repeat center center/80%;
+}

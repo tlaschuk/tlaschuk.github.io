@@ -1,0 +1,159 @@
+sidebar {
+  position: absolute;
+  top: 144px;
+  left: 0;
+  height: 100%;
+  width: 18%;
+  background-color: #323232;
+  overflow-y: overlay;
+}
+sidebar.sticked {
+  position: fixed;
+  top: 48px;
+}
+.sidebar_section press {
+  height: 24px;
+  width: 100%;
+  line-height: 24px;
+  padding-left: 48px;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: left;
+  background-color: inherit;
+  background-position: 24px center;
+  -webkit-background-size: auto 18px;
+  -moz-background-size: auto 18px;
+  background-size: auto 18px;
+  background-repeat: no-repeat;
+}
+.sidebar_section press:hover {
+  background-color: #30659a;
+}
+.sidebar_section press.selected {
+  background-color: #175189;
+}
+.sidebar_section press.selected:hover {
+  background-color: #30659a;
+}
+.sidebar_section-title {
+  height: 36px;
+  line-height: 36px;
+  padding-left: 24px;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: #454545;
+}
+group {
+  width: 82%;
+  margin-left: 18%;
+}
+group .group_title {
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-blend-mode: luminosity;
+  background-color: #000;
+}
+group .group_title:hover,
+group .group_title.hovered {
+  background-color: initial;
+}
+group.group_pending .group_title p:before {
+  content: "[COMING SOON] ";
+  font-weight: 300;
+}
+.group_content div,
+.group_content p {
+  display: inline-block;
+  vertical-align: top;
+}
+.group_content > div {
+  margin: 36px 0;
+}
+.press_buy,
+.press_download {
+  -webkit-background-size: 30px;
+  -moz-background-size: 30px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+}
+.press_buy {
+  padding-left: 48px;
+  background-image: url("../../images/icons/buy.png");
+  background-position: 9px center;
+}
+.press_download {
+  width: 48px;
+  background-image: url("../../images/icons/download.png");
+  background-position: center;
+}
+.group_aircraft {
+  padding: 24px;
+  padding-left: 411px;
+  text-align: justify;
+  font-size: 18px;
+  background-position: left center;
+  -webkit-background-size: 387px 240px;
+  -moz-background-size: 387px 240px;
+  background-size: 387px 240px;
+  background-repeat: no-repeat;
+}
+.group_missions .group_package {
+  width: 100%;
+  margin-left: 0;
+}
+.group_campaign:not(:last-child) {
+  margin-bottom: 72px;
+}
+.group_campaign-description {
+  padding: 24px;
+}
+.group_campaign-description div {
+  height: 48px;
+  width: calc(100% - 120px);
+  line-height: 48px;
+  font-size: 18px;
+}
+.group_campaign-description p {
+  padding: 12px 0;
+}
+.group_package {
+  width: 90%;
+  margin-left: 10%;
+  border: 1px solid #323232;
+  border-left: 0;
+  border-right: 0;
+  padding: 12px 24px;
+  padding-left: 174px;
+  text-align: left;
+  background-position: left center;
+  -webkit-background-size: 150px 150px;
+  -moz-background-size: 150px 150px;
+  background-size: 150px 150px;
+  background-repeat: no-repeat;
+}
+.group_package:not(:last-child) {
+  margin-bottom: 24px;
+}
+.group_package press {
+  float: left;
+}
+.group_package press:not(:last-of-type) {
+  margin-right: 12px;
+}
+.group_package div {
+  float: right;
+  height: 48px;
+  width: calc(100% - 180px);
+  line-height: 48px;
+  font-size: 18px;
+  text-align: center;
+}
+.group_package p {
+  padding: 12px 0;
+}
+.group_package h6 {
+  text-align: right;
+}

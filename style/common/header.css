@@ -1,0 +1,34 @@
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  height: 144px;
+  width: 100%;
+  background: -webkit-radial-gradient(circle at 48px 48px, #175189, #0e1822);
+  background: -moz-radial-gradient(circle at 48px 48px, #175189, #0e1822);
+  background: -o-radial-gradient(circle at 48px 48px, #175189, #0e1822);
+  background: -ms-radial-gradient(circle at 48px 48px, #175189, #0e1822);
+  background: radial-gradient(circle at 48px 48px, #175189, #0e1822);
+}
+header h1 {
+  height: 96px;
+  line-height: 96px;
+  margin-left: 24px;
+  padding-left: 144px;
+  background: url("../../images/common/leaf.png") no-repeat center left/96px;
+}
+header nav {
+  height: 48px;
+  width: 100%;
+  text-align: center;
+  background: inherit;
+}
+header nav press {
+  background: none;
+}
+header nav.sticked {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
