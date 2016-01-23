@@ -27,13 +27,13 @@ sidebar.sticked {
   background-repeat: no-repeat;
 }
 .sidebar_section press:hover {
-  background-color: #30659a;
+  background-color: #bfc6cc;
 }
 .sidebar_section press.selected {
-  background-color: #175189;
+  background-color: #7f8993;
 }
 .sidebar_section press.selected:hover {
-  background-color: #30659a;
+  background-color: #bfc6cc;
 }
 .sidebar_section-title {
   height: 36px;

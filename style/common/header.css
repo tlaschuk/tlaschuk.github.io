@@ -5,11 +5,11 @@ header {
   z-index: 1;
   height: 144px;
   width: 100%;
-  background: -webkit-radial-gradient(circle at 48px 48px, #175189, #0e1822);
-  background: -moz-radial-gradient(circle at 48px 48px, #175189, #0e1822);
-  background: -o-radial-gradient(circle at 48px 48px, #175189, #0e1822);
-  background: -ms-radial-gradient(circle at 48px 48px, #175189, #0e1822);
-  background: radial-gradient(circle at 48px 48px, #175189, #0e1822);
+  background: -webkit-radial-gradient(circle at 48px 48px, #7f8993, #455769);
+  background: -moz-radial-gradient(circle at 48px 48px, #7f8993, #455769);
+  background: -o-radial-gradient(circle at 48px 48px, #7f8993, #455769);
+  background: -ms-radial-gradient(circle at 48px 48px, #7f8993, #455769);
+  background: radial-gradient(circle at 48px 48px, #7f8993, #455769);
 }
 header h1 {
   height: 96px;
