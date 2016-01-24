@@ -19,7 +19,7 @@
   padding-left: 12px;
 }
 .faq_answer {
-  max-height: 150px;
+  max-height: 200px;
   overflow: hidden;
   -webkit-transition: max-height 0.3s ease-in-out;
   -moz-transition: max-height 0.3s ease-in-out;
