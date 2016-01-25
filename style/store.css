@@ -12,6 +12,10 @@ group .group_title p {
   display: inline-block;
   margin: 12px;
 }
+#group_magazines a {
+  height: 180px;
+  width: 180px;
+}
 #group_modules a {
   height: 180px;
   width: 180px;
