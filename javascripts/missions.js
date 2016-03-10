@@ -447,7 +447,7 @@ var missions =
             ]
         },
         {
-            "aircraft": "Su-33 flanker-D",
+            "aircraft": "Su-33 flanker-d",
             "description": "The Sukhoi Su-33 (NATO reporting name: Flanker-D) is an all-weather carrier-based twin-engine air superiority fighter designed by Sukhoi and manufactured by Komsomolsk-on-Amur Aircraft Production Association. It is a derivative of the Su-27 \"Flanker\" and was initially known as the Su-27K. First used in operations in 1995 aboard the carrier Admiral Kuznetsov, the fighter officially entered service in August 1998, by which time the designation \"Su-33\" was used. Compared with the Su-27, the Su-33 has a strengthened undercarriage and structure, folding wings and stabilators, all for carrier operations. The wings are larger than on land-based aircraft for increased lift. The Su-33 has upgraded engines and a twin nose wheel, and is air refuelable. In 2009, the Russian Navy ordered the MiG-29K as a replacement for the Su-33.",
             "image": "su33",
             "campaigns":
@@ -456,7 +456,7 @@ var missions =
                     "name": "[BFT] Basic Flight Training Qualification",
                     "description": "The goal of the Su-33 Pilot Qualification Course is to prepare Cadets for combat operations flying the Su-33 in a number of mission roles. Commanders require pilots with the skills and training necessary to be successful on the battlefield. Each Phase of training will contain individual Performance Objectives (POs) that must be met to pass the course. Performance Checks (PCs) will be used to determine if you have met the requirements of the PO.  Your campaign mission key will unlock the packages below.",
                     "price": "",
-                    "link": "https://www.digitalcombatsimulator.com/en/files/1507813/",
+                    "paypal": "",
                     "packages":
                         [
                         {
