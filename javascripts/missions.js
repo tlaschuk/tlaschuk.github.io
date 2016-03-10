@@ -457,6 +457,7 @@ var missions =
                     "description": "The goal of the Su-33 Pilot Qualification Course is to prepare Cadets for combat operations flying the Su-33 in a number of mission roles. Commanders require pilots with the skills and training necessary to be successful on the battlefield. Each Phase of training will contain individual Performance Objectives (POs) that must be met to pass the course. Performance Checks (PCs) will be used to determine if you have met the requirements of the PO.  Your campaign mission key will unlock the packages below.",
                     "price": "",
                     "paypal": "",
+                    "link": "https://www.digitalcombatsimulator.com/en/files/1507813/",
                     "packages":
                         [
                         {
