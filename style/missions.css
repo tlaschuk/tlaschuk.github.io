@@ -112,7 +112,7 @@ group.group_pending .group_title p:before {
 }
 .group_campaign-description div {
   height: 48px;
-  width: calc(100% - 120px);
+  width: calc(100% - 150px);
   line-height: 48px;
   font-size: 18px;
 }
@@ -146,7 +146,7 @@ group.group_pending .group_title p:before {
 .group_package div {
   float: right;
   height: 48px;
-  width: calc(100% - 180px);
+  width: calc(100% - 210px);
   line-height: 48px;
   font-size: 18px;
   text-align: center;
