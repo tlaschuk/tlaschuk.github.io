@@ -131,7 +131,7 @@ group.group_pending .group_title p:before {
   background-position: left center;
   -webkit-background-size: 150px 150px;
   -moz-background-size: 150px 150px;
-  background-size: 150px 150px;
+  background-size: 350px 500px;
   background-repeat: no-repeat;
 }
 .group_package:not(:last-child) {
